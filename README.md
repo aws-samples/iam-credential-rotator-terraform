@@ -134,7 +134,6 @@ module "iam_key_rotation" {
 
 ## Notes
 
-
 This module creates 3 SSM parameters and 1 CMK to encrypt those SSM parameters. Following are the purpose of those SSM params.
 
 - 2 SSM parameters as secure string for **-->** Maintaining IAM access key and secret

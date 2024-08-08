@@ -1,0 +1,20 @@
+{
+    "Version": "2012-10-17",
+    "Id": "key-policy",
+    "Statement": [
+      {
+        "Sid": "Allow administrators to manage and use the key",
+        "Effect": "Allow",
+        "Principal": {
+          "AWS": [
+            "arn:aws:iam::${account_id}:user/${admin_user}"
+          ]
+        },
+        "Action": [
+          "kms:*"
+        ],
+        "Resource": "*"
+      }
+    ]
+  }
+  

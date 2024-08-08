@@ -1,6 +1,3 @@
-# AWS-IAM-Credential-Rotator-Terraform
-
-## Description
 
 The purpose of this repository is create a reusable terraform module to ensure the **rotation of IAM user key**. That includes creation, deletion and marking them as inactive. The repo is built on a use case where generation of new keys has to be reflected in terraform output. If it isnt your case also check out this [repo](https://github.com/AdventielFr/terraform-aws-iam-rotate-credentials) and [this](https://github.com/jessiehernandez/terraform-aws-database-credentials-rotator).
 
